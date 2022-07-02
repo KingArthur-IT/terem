@@ -13,7 +13,6 @@
     font-size: 22px
     border-radius: 10px
     cursor: pointer
-
 .designers
     &__title-wrapper
         display: flex
@@ -25,6 +24,9 @@
         font-size: 26px
     &__text
         margin-bottom: 60px
+    &__request-btn
+    &__mob-request-btn
+        display: none
     &__projects
         &-head
             display: flex
@@ -131,7 +133,7 @@
         height: 40px
         border-radius: 50%
         background: #fff
-        transform: translateY(-50%)
+        transform: translateY(-100%)
         display: flex
         justify-content: center
         align-items: center
@@ -179,3 +181,130 @@
         left: 0px
     &__right-arrow
         right: 0px
+
+@media screen and (max-width: 1200px) 
+    .designers
+        &__intro
+            margin-top: 80px
+        &__text
+            margin-bottom: 40px
+@media screen and (max-width: 1000px) 
+    .designers-slider__gray-btn
+        width: 100%
+@media screen and (max-width: 992px) 
+    .gray-btn
+        font-size: 18px
+    .mb-120
+        margin-bottom: 60px !important
+    .designers
+        &__projects
+            &-head
+                margin-bottom: 40px
+@media screen and (max-width: 900px) 
+    .designers
+        &__comfort
+            &-list
+                flex-wrap: wrap
+            &-item
+                flex-basis: 40%
+                margin-bottom: 20px
+
+@media screen and (max-width: 800px) 
+    .designers
+        &__projects
+            &-head
+                flex-direction: column
+            &-big-img
+                width: 80%
+                margin-right: 0px
+                margin-bottom: 20px
+        &__text
+            margin-bottom: 20px
+        &__video
+            &-section
+                flex-direction: column
+            &-big
+                margin-right: 0
+                flex-basis: 100%
+                margin-bottom: 20px
+                & img
+                    margin: auto
+                    width: 80%
+                    display: block
+            &-list
+                flex-basis: 100%
+                display: flex
+                & img
+                    width: 100%
+            &-item
+                flex-direction: column
+                flex-basis: 32%
+                margin-right: 20px
+    .designers-slider
+        &__img
+            width: 300px
+            margin: auto
+            margin-bottom: 30px
+        &__gray-btn
+            width: 300px
+            margin: auto
+            display: block
+@media screen and (max-width: 600px) 
+    .designers
+        &__request-btn
+            display: none
+        &__mob-request-btn
+            display: block
+        &__projects
+            &-list
+                flex-direction: column
+            &-item
+                flex-basis: 100%
+                margin-bottom: 20px
+            &-img
+                width: 80%
+                margin: auto
+                margin-bottom: 20px
+        &__video
+            &-list
+                flex-direction: column
+                & img
+                    width: 80%
+                    margin: auto
+@media screen and (max-width: 500px) 
+    .designers-slider
+        &__img
+            width: 100%
+        &__gray-btn
+            width: 100%
+@media screen and (max-width: 450px) 
+    .designers
+        &__comfort
+            &-list
+                flex-direction: column
+            &-item
+                flex-basis: 100%
+    .designers-slider
+        &__text
+            margin-bottom: 10px
+        &__img
+            margin-bottom: 10px
+@media screen and (max-width: 400px) 
+    .designers
+        &__projects
+            &-big-img
+                width: 100%
+            &-img
+                width: 100%
+    .designers-projects-slider
+        &__left-arrow
+            left: 0px
+        &__right-arrow
+            right: 0px
+        &__item
+            margin-right: 0px
+    .designers-slider__img
+        height: 200px
+@media screen and (max-width: 350px) 
+    .designers-slider__img
+        height: 150px
