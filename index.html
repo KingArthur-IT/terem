@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.min.css">
+    <link rel="stylesheet" href="./style/style.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header class="m-header">
+        <div class="container">
+            <div class="m-header__row">
+                <div class="m-header__left">
+                    <a href="tel:+78003021522" class="m-h-phone"><svg class="svg-icon"><use xlink:href="#phone"></use></svg></a>
+                </div>
+                                    <div class="m-header__middle">
+                    <a href="/" class="m-h-logo">
+                        <img class="m-h-logo__img" src="/assets/img-svg/logo.svg" alt="">
+                        <img class="m-h-logo__img _for-main" src="/assets/img-svg/logo-main.svg" alt="">
+                    </a>
+                </div>
+                <div class="m-header__right">
+                    <a href="javascript:void(0);" class="m-h-burger js--m-head-open"><svg class="svg-icon"><use xlink:href="#burger"></use></svg></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header js--header js--header-fix">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top__row">
+                    <div class="header__top__left">
+                        <a href="/kak-kupit/upakovka-i-dostavka/">Доставка</a>
+                        <span class="header__top__sep"></span>
+                        <a href="/kak-kupit/oplata/">Оплата</a>
+                        <span class="header__top__sep"></span>
+                        <a href="/semeynoe-delo/otzyvy/">Отзывы</a>
+                        <span class="header__top__sep"></span>
+                        <a href="/ajax/forms/get-order-status.php" class="js--popup" data-type="ajax">Статус заказа</a>
+                                                </div>
+                    <div class="header__top__right">
+                        
+                        <a href="/sotrudnichestvo/dileram/personal/" class="h-lk-diller" title="Личный кабинет дилера">
+                            <svg class="svg-icon"><use xlink:href="#user"></use></svg>
+                        </a>
+                        <span class="header__top__sep"></span>
+                        <a href="#city-list" class="h-cityselect js--popup">
+                            Сочи                                <svg class="h-cityselect__triangle svg-icon"><use xlink:href="#triangle"></use></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="header__m-head">
+                <a href="/" class="m-h-logo"><img src="/assets/img-svg/logo.svg" alt=""></a>
+                <a href="javascript:void(0);" class="m-h-close js--m-head-close"><svg class="svg-icon"><use xlink:href="#x"></use></svg></a>
+            </div>
+            <div class="container">
+                <div class="header__middle__row">
+                    <div class="header__middle__left">
+                        <a href="/ajax/forms/request-call.php" class="btn  js--popup" data-type="ajax">закажите звонок</a>
+                    </div>
+                    <div class="header__middle__middle">
+<div class="h-menu">
+<div class="h-menu__group">
+        <div class="h-menu__item">
+            <a href="/catalog/" class="h-menu__item__link ">Каталог</a>
+        </div>
+        <div class="h-menu__item _sub-one-lavel">
+            <a href="/promo/" class="h-menu__item__link ">Акции</a> 
+        </div>
+        <div class="h-menu__item _sub-one-lavel">
+            <a href="/where-by/" class="h-menu__item__link ">Где купить</a>   
+        </div>        
+            </div><!--h-menu__group-->
+            <a href="/" class="h-logo">
+                <img class="h-logo__img" src="/assets/img-svg/logo.svg" alt="">
+                <img class="h-logo__img _for-main" src="/assets/img-svg/logo-main.svg" alt="">
+            </a>
+            <div class="h-menu__group">
+            <div class="h-menu__item _sub-one-lavel">
+            <a href="/kak-kupit/" class="h-menu__item__link _active">Как купить</a>
+                <a href="javascript:void(0);" class="h-menu__item__submenu-toggler js--h-menu-m-submenu-open">
+                    <svg class="svg-icon"><use xlink:href="#arrow-right"></use></svg>
+                </a>
+                <div class="h-menu__item__submenu _one-lavel js--h-menu-submenu">
+                    <div class="h-menu__submenu">
+                        <div class="h-menu__submenu__m-head">
+                            <a href="javascript:void(0);" class="h-menu__submenu__m-head__back js--h-menu-submenu-m-close">
+                                <svg class="svg-icon"><use xlink:href="#arrow-left"></use></svg>
+                                Как купить                                </a>
+                            <a href="javascript:void(0);" class="m-h-close js--m-head-close"><svg class="svg-icon"><use xlink:href="#x"></use></svg></a>
+                        </div>
+                        <div class="h-menu__submenu__left">       
+                                <div class="h-menu__submenu__item  _active" data-id="105">
+                                    <a href="/kak-kupit/distantsionnaya-torgovlya/" class="h-menu__submenu__item__link">Дистанционная торговля</a>                                   
+                                </div>                            
+                                <div class="h-menu__submenu__item  " data-id="106">
+                                    <a href="/kak-kupit/lichnyy-pomoshchnik/" class="h-menu__submenu__item__link">Профессиональная консультация</a>                                   
+                                </div>                           
+                                <div class="h-menu__submenu__item  " data-id="107">
+                                    <a href="/kak-kupit/zamer-i-podgotovka-proema/" class="h-menu__submenu__item__link">Замер и подготовка проема</a>                                    
+                                </div>                       
+                                <div class="h-menu__submenu__item  " data-id="108">
+                                    <a href="/kak-kupit/oplata/" class="h-menu__submenu__item__link">Оплата</a>                                    
+                                </div>     
+                                <div class="h-menu__submenu__item  " data-id="109">
+                                    <a href="/kak-kupit/srok-proizvodstva/" class="h-menu__submenu__item__link">Срок производства</a>                                   
+                                </div>                   
+                                <div class="h-menu__submenu__item  " data-id="110">
+                                    <a href="/kak-kupit/upakovka-i-dostavka/" class="h-menu__submenu__item__link">Упаковка и доставка</a>                                  
+                                </div>                           
+                                <div class="h-menu__submenu__item  " data-id="111">
+                                    <a href="/kak-kupit/priyatnye-bonusy/" class="h-menu__submenu__item__link">Приятные бонусы</a>                                  
+                                </div>
+                                <div class="h-menu__submenu__item  " data-id="112">
+                                    <a href="/kak-kupit/garantii/" class="h-menu__submenu__item__link">Гарантии</a>
+                                </div>
+                                <div class="h-menu__submenu__item  " data-id="113">
+                                    <a href="/kak-kupit/dizaynery/" class="h-menu__submenu__item__link">Дизайнеры</a>
+                                </div>
+                                <div class="h-menu__submenu__item  " data-id="114">
+                                    <a href="/kak-kupit/blog/" class="h-menu__submenu__item__link">Блог</a>      
+                                </div>
+                        </div>
+                        <div class="h-menu__submenu__right">                           
+                        </div>
+                    </div>
+                </div> 
+        </div>
+        <div class="h-menu__item _sub-one-lavel">
+            <a href="/semeynoe-delo/" class="h-menu__item__link ">О компании</a>           
+                <a href="javascript:void(0);" class="h-menu__item__submenu-toggler js--h-menu-m-submenu-open">
+                    <svg class="svg-icon"><use xlink:href="#arrow-right"></use></svg>
+                </a>
+                <div class="h-menu__item__submenu _one-lavel js--h-menu-submenu">
+                    <div class="h-menu__submenu">
+                        <div class="h-menu__submenu__m-head">
+                            <a href="javascript:void(0);" class="h-menu__submenu__m-head__back js--h-menu-submenu-m-close">
+                                <svg class="svg-icon"><use xlink:href="#arrow-left"></use></svg>
+                                О компании                                </a>
+                            <a href="javascript:void(0);" class="m-h-close js--m-head-close"><svg class="svg-icon"><use xlink:href="#x"></use></svg></a>
+                        </div>
+                        <div class="h-menu__submenu__left">                          
+                                <div class="h-menu__submenu__item  _active" data-id="116">
+                                    <a href="/semeynoe-delo/semeynoe-delo/" class="h-menu__submenu__item__link">Семейное дело</a>                                   
+                                </div>                           
+                                <div class="h-menu__submenu__item  " data-id="117">
+                                    <a href="/semeynoe-delo/dveri-dlya-zhizni/" class="h-menu__submenu__item__link">Двери для жизни</a>                                    
+                                </div>                         
+                                <div class="h-menu__submenu__item  " data-id="118">
+                                    <a href="/semeynoe-delo/family-businnes-teem/" class="h-menu__submenu__item__link">Личная гарантия</a>                                   
+                                </div>                        
+                                <div class="h-menu__submenu__item  " data-id="119">
+                                    <a href="/semeynoe-delo/family-businnes-quality/" class="h-menu__submenu__item__link">Качество</a>                                   
+                                </div>                          
+                                <div class="h-menu__submenu__item  " data-id="120">
+                                    <a href="/semeynoe-delo/otzyvy/" class="h-menu__submenu__item__link">Отзывы</a>                                   
+                                </div>                          
+                                <div class="h-menu__submenu__item  " data-id="121">
+                                    <a href="/semeynoe-delo/videos/" class="h-menu__submenu__item__link">Видео</a>                                 
+                                </div>
+                       </div>
+                        <div class="h-menu__submenu__right">                         
+                        </div>
+                    </div>
+                </div>
+        </div>       
+        <div class="h-menu__item _sub-one-lavel">
+            <a href="/sotrudnichestvo/dizayneram/" class="h-menu__item__link ">Дизайнерам</a>       
+        </div>
+</div><!--h-menu__group-->
+</div><!--h-menu-->                        </div>
+                    <div class="header__middle__right"> 
+                        <a href="https://www.peredelka.tv/episodes/kv/vyatskaya-gostinaya-dlya-rechnikov/?preview=y#dveri" target="_blank" class="d-flex flex-column justify-content-center">
+                            <img src="/img/kvartirniy_vopros3.png" class="d-block" width="133">
+                            <div class="f-s-12 ">Участник программы</div>
+                        </a>
+                        <div class="m-h-contacts">
+                            <br>
+                            <a href="tel:88003021522" class="m-h-contacts__phone">
+                                <svg class="svg-icon"><use xlink:href="#phone"></use></svg>
+                                <span class="odinakovie-identifikatori-dlay-telefonov">8 800 302 15 22</span>
+                            </a>
+                            <span class="m-h-contacts__worktime">пн-пт, 08:00 - 17:00 (мск)</span>
+                            <div class="h-0_5-rem"></div>
+                            <a href="/ajax/forms/request-call.php" class="m-h-contacts__link js--popup" data-type="ajax">Заказать звонок</a>
+                            <div class="h-0_5-rem"></div>
+                            <a href="/ajax/forms/get-order-status.php" class="m-h-contacts__link js--popup" data-type="ajax">Узнать статус заказа</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container mb-120">
+            <div class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <div class="breadcrumbs__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                    <a href="/" title="Главная" itemscope="" itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1">
+                </div>
+                <span class="sep"></span>
+    
+                <div class="breadcrumbs__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                    <span itemprop="name">Сотрудничество</span>
+                    <meta itemprop="position" content="2">
+                </div>
+                <span class="sep"></span>
+    
+                <div class="breadcrumbs__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                    <span itemprop="name">Дизайнерам</span>
+                    <meta itemprop="position" content="3">
+                </div>
+            </div>
+            <div class="designers__title-wrapper">
+                <h1 class="m-0">Дизайнерам</h1> 
+                <button class="gray-btn">отправить заявку на сотрудничество</button>   
+            </div> 
+            <div class="p-big">
+                Уважаемые дизайнеры и архитекторы, рады видеть вас в нашей дружной команде! Благодаря вам мы реализовали самые красивые,  яркие, креативные и масштабные проекты. С самого основания фабрики мы развиваем наше партнерство, а чтобы оно было еще более интересным и полезным, организуем  тематические встречи, проводим презентации наших новинок и готовы воплотить в жизнь любой проект. Давайте работать вместе!
+            </div>     
+        </div>
+        <div class="container mb-120">
+            <h2 class="designers__title">Проекты для жизни</h2>
+            <div class="p-big designers__text">
+                Мы реализовали уже более 1000 дизайнерских идей, иногда неожиданных и сложных. <br> И не готовы останавливаться!
+            </div>
+            <div class="designers__projects-head">
+                <img src="./assets/kvartirniy-vopros.png" alt="Квартирный вопрос" class="designers__projects-big-img">
+                <div class="designers__projects-head-text">
+                    <div class="p-big">
+                        Фабрика "Терем" - участник "Квартирного вопроса". В юбилейном 20-ом выпуске передачи участвовали  наши двери Amelia X3. Изящные полотна в стиле  романтичного французского прованса украсили вход в  гостиную и сделали его парадным и торжественным.
+                    </div> 
+                    <button class="gray-btn">посмотреть проект</button>   
+                </div>
+            </div>
+            <div class="designers__projects-list">
+                <div class="designers__projects-item">
+                    <img src="./assets/project-1.png" alt="project-1" class="designers__projects-img">
+                    <span class="designers__projects-label">Дизайн-проекты</span>
+                    <p>
+                        <b>г. Уфа, Стильный минимализм в природных оттенках</b> 18 марта
+                    </p>
+                </div>
+                <div class="designers__projects-item">
+                    <img src="./assets/project-2.png" alt="project-2" class="designers__projects-img">
+                    <span class="designers__projects-label">Дизайн-проекты</span>
+                    <p>
+                        <b>г. Чебоксары, Уютный и необычный интерьер для дружной семьи</b> 25 февраля
+                    </p>
+                </div>
+                <div class="designers__projects-item">
+                    <img src="./assets/project-3.png" alt="project-3" class="designers__projects-img">
+                    <span class="designers__projects-label">Дизайн-проекты</span>
+                    <p>
+                        <b>г. Москва, Интерьер спальни в шоколадных тонах с панорамными окнами</b> 08 февраля
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-120">
+            <h2 class="designers__title">С нами дружат</h2>
+            <div class="p-big designers__text">
+                Наши дизайнеры принимают активное участие в жизни нашей компании. В рамках специального проекта "Разговор с  дизайнером" мы часто встречаемся, обсуждаем тренды и новинки дизайн индустрии.
+            </div>
+            <div class="designers__video-section">
+                <div class="designers__video-big">
+                    <img src="./assets/video-preview.png" alt="video-preview" class="">
+                    <p>
+                        <b>Дизайнер Мария Иванова, г. Ульяновск, "О трендах в дверном  производстве"</b>
+                    </p>
+                </div>
+                <div class="designers__video-list">
+                    <div class="designers__video-item">
+                        <img src="./assets/video-preview.png" alt="video-preview">
+                        <p>
+                            Дизайнер Мария Иванова, г. Ульяновск, "О трендах в дверном производстве"
+                        </p>
+                    </div>
+                    <div class="designers__video-item">
+                        <img src="./assets/video-preview.png" alt="video-preview">
+                        <p>
+                            Дизайнер Мария Иванова, г. Ульяновск, "О трендах в дверном производстве"
+                        </p>
+                    </div>
+                    <div class="designers__video-item">
+                        <img src="./assets/video-preview.png" alt="video-preview">
+                        <p>
+                            Дизайнер Мария Иванова, г. Ульяновск, "О трендах в дверном производстве"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="designers__title">С нами встречаются</h2>
+            <div class="p-big designers__text">
+                Наши дизайнеры принимают активное участие в жизни нашей компании. В рамках специального проекта "Разговор с  дизайнером" мы часто встречаемся, обсуждаем тренды и новинки дизайн индустрии.
+            </div>
+            <div class="designers-projects-slider">
+                <div class="designers-projects-slider__wrapper">
+                    <div class="designers-projects-slider__item">
+                        <img src="./assets/meet-1.png" alt="meet-1" class="designers-projects-slider__img">
+                        <span class="designers-projects-slider__label">Мероприятия</span>
+                        <p>
+                            <b>Партнерская встреча "Завтрак с дизайнерами"</b> 11 ноября
+                        </p>
+                    </div>
+                    <div class="designers-projects-slider__item">
+                        <img src="./assets/meet-1.png" alt="meet-1" class="designers-projects-slider__img">
+                        <span class="designers-projects-slider__label">Мероприятия</span>
+                        <p>
+                            <b>V Всероссийская конференция по комплектации</b> 30 июня
+                        </p>
+                    </div>
+                    <div class="designers-projects-slider__item">
+                        <img src="./assets/meet-1.png" alt="meet-1" class="designers-projects-slider__img">
+                        <span class="designers-projects-slider__label">Мероприятия</span>
+                        <p>
+                            <b>Конференция для дилеров в г. Ульяновск</b> 10 июня
+                        </p>
+                    </div>
+                    <div class="designers-projects-slider__item">
+                        <img src="./assets/meet-1.png" alt="meet-1" class="designers-projects-slider__img">
+                        <span class="designers-projects-slider__label">Мероприятия</span>
+                        <p>
+                            <b>Партнерская встреча "Завтрак с дизайнерами"</b> 11 ноября
+                        </p>
+                    </div>
+                    <div class="designers-projects-slider__item">
+                        <img src="./assets/meet-1.png" alt="meet-1" class="designers-projects-slider__img">
+                        <span class="designers-projects-slider__label">Мероприятия</span>
+                        <p>
+                            <b>V Всероссийская конференция по комплектации</b> 30 июня
+                        </p>
+                    </div>
+                    <div class="designers-projects-slider__item">
+                        <img src="./assets/meet-1.png" alt="meet-1" class="designers-projects-slider__img">
+                        <span class="designers-projects-slider__label">Мероприятия</span>
+                        <p>
+                            <b>Конференция для дилеров в г. Ульяновск</b> 10 июня
+                        </p>
+                    </div>
+                </div>
+                <div class="designers-projects-slider__btn designers-projects-slider__left-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z"/></svg>
+                </div>
+                <div class="designers-projects-slider__btn designers-projects-slider__right-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"/></svg>
+                </div>
+            </div>
+        </div>
+        <div class="designers__hr"></div>
+        <div class="container mb-120">
+            <h2 class="designers__title">С нами комфортно</h2>
+            <div class="designers__comfort-list">
+                <div class="designers__comfort-item">
+                    <div class="designers__comfort-pic"></div>
+                    <p class="designers__comfort-text">
+                        <b>Каталог 3D моделей</b><br>
+                        3D модели наших  дверей вы можете  скачать по ссылке на 
+                        <a href="https://yadi.sk/d/Bioh_Cf5veZZmA" target="_blank">Яндекс.Диск</a>
+                        или на сайте 
+                        <a href="https://3ddd.ru/users/teremdoor/models" target="_blank">3ddd.ru</a>.
+                    </p>
+                </div>
+                <div class="designers__comfort-item">
+                    <div class="designers__comfort-pic"></div>
+                    <p class="designers__comfort-text">
+                        <b>Шоурум как офис</b><br>
+                        Используйте наши  официальные салоны  как площадку для  встречи с клиентами.  Мы всегда вам рады!
+                    </p>
+                </div>
+                <div class="designers__comfort-item">
+                    <div class="designers__comfort-pic"></div>
+                    <p class="designers__comfort-text">
+                        <b>Рекламная поддержка</b><br>
+                        Ваши работы получат  дополнительную  рекламу на нашем  сайте и в социальных  сетях.
+                    </p>
+                </div>
+                <div class="designers__comfort-item">
+                    <div class="designers__comfort-pic bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M494.9 96.01c-38.78 0-75.22 15.09-102.6 42.5L320 210.8L247.8 138.5c-27.41-27.41-63.84-42.5-102.6-42.5C65.11 96.01 0 161.1 0 241.1v29.75c0 80.03 65.11 145.1 145.1 145.1c38.78 0 75.22-15.09 102.6-42.5L320 301.3l72.23 72.25c27.41 27.41 63.84 42.5 102.6 42.5C574.9 416 640 350.9 640 270.9v-29.75C640 161.1 574.9 96.01 494.9 96.01zM202.5 328.3c-15.31 15.31-35.69 23.75-57.38 23.75C100.4 352 64 315.6 64 270.9v-29.75c0-44.72 36.41-81.13 81.14-81.13c21.69 0 42.06 8.438 57.38 23.75l72.23 72.25L202.5 328.3zM576 270.9c0 44.72-36.41 81.13-81.14 81.13c-21.69 0-42.06-8.438-57.38-23.75l-72.23-72.25l72.23-72.25c15.31-15.31 35.69-23.75 57.38-23.75C539.6 160 576 196.4 576 241.1V270.9z"/></svg>
+                    </div>
+                    <p class="designers__comfort-text">
+                        <b>Бесконечная фантазия</b><br>
+                        Мы изготавливаем полотна  любых, в том числе  нестандартных размеров, а  также делаем окрашивание  по палитрам RAL и NCS.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="designers__title">Нам доверяют</h2>
+            <div class="p-big designers__text">
+                Нам доверяет более 300 дизайнеров в 35 городах России. Мы ценим каждого нашего  партнера и всегда рады интересным, сложным и необычным проектам.
+            </div>
+            <div class="designers-slider">
+                <div class="designers-slider__wrapper">
+                    <div class="designers-slider__item">
+                        <div class="designers-slider__img"></div>
+                        <div class="designers-slider__text">
+                            <div class="designers-slider__name">Мария Китаева,</div>
+                            <div class="designers-slider__city">г. Геленджик</div>
+                        </div>
+                        <button class="gray-btn">посмотреть проект дизайнера</button>   
+                    </div>
+                    <div class="designers-slider__item">
+                        <div class="designers-slider__img"></div>
+                        <div class="designers-slider__text">
+                            <div class="designers-slider__name">Мария Китаева,</div>
+                            <div class="designers-slider__city">г. Геленджик</div>
+                        </div>
+                        <button class="gray-btn">посмотреть проект дизайнера</button>   
+                    </div>
+                    <div class="designers-slider__item">
+                        <div class="designers-slider__img"></div>
+                        <div class="designers-slider__text">
+                            <div class="designers-slider__name">Мария Китаева,</div>
+                            <div class="designers-slider__city">г. Геленджик</div>
+                        </div>
+                        <button class="gray-btn">посмотреть проект дизайнера</button>   
+                    </div>
+                    <div class="designers-slider__item">
+                        <div class="designers-slider__img"></div>
+                        <div class="designers-slider__text">
+                            <div class="designers-slider__name">Мария Китаева,</div>
+                            <div class="designers-slider__city">г. Геленджик</div>
+                        </div>
+                        <button class="gray-btn">посмотреть проект дизайнера</button>   
+                    </div>
+                    <div class="designers-slider__item">
+                        <div class="designers-slider__img"></div>
+                        <div class="designers-slider__text">
+                            <div class="designers-slider__name">Мария Китаева,</div>
+                            <div class="designers-slider__city">г. Геленджик</div>
+                        </div>
+                        <button class="gray-btn">посмотреть проект дизайнера</button>   
+                    </div>
+                    <div class="designers-slider__item">
+                        <div class="designers-slider__img"></div>
+                        <div class="designers-slider__text">
+                            <div class="designers-slider__name">Мария Китаева,</div>
+                            <div class="designers-slider__city">г. Геленджик</div>
+                        </div>
+                        <button class="gray-btn">посмотреть проект дизайнера</button>   
+                    </div>
+                </div>
+                <div class="designers-slider__btn designers-slider__left-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z"/></svg>
+                </div>
+                <div class="designers-slider__btn designers-slider__right-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"/></svg>
+                </div>
+            </div>
+        </div>
+        <div class="designers__hr mb-120"></div>
+        <div class="family-frame">
+            <div class="p _big">
+                Отправьте нам заявку, <br>если хотите стать нашим партнером.
+                <br>
+                Получив запрос, мы сможем подробнее рассказать <br>о деталях нашей партнерской программы.
+            </div>
+            <div class="btns">
+                <a href="/ajax/forms/become-partner.php?type=Дизайнер" class="btn js--popup" data-type="ajax">Отправить
+                    заявку</a>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
