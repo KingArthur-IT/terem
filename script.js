@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.designers-slider__wrapper').slick({
-        autoplay: false,
+        autoplay: true,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -46,4 +46,15 @@ $(document).ready(function(){
               },
         ]
     });
+});
+
+$(document).ready(function(){
+  $('.dilers-consept-slider__wrapper').slick({
+      autoplay: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $('.dilers-consept-slider__left-arrow'),
+      nextArrow: $('.dilers-consept-slider__right-arrow'),
+  });
 });

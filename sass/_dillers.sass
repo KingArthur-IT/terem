@@ -1,1 +1,51 @@
-.dillers
+.dilers
+    &__title-wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 40px
+    &__request-btn
+    &__mob-request-btn
+        display: none
+    &__concept
+        margin-bottom: 60px
+    &__about-us-list
+    &__about-us-item
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &:nth-child(even)
+            flex-direction: row-reverse
+    &__big-img
+        width: 50%
+        margin-right: 20px
+    &__about-us-text
+    &__custom-list
+        padding-left: 40px
+        position: relative
+        & div
+            position: relative
+        & div::before
+            content: ''
+            position: absolute
+            left: -20px
+            top: 15px
+            width: 7px
+            height: 7px
+            border-radius: 50%
+            background: #000
+    &__service
+
+
+
+@media screen and (max-width: 1200px) 
+    .dillers
+        &__intro
+            margin-top: 80px
+
+@media screen and (max-width: 600px) 
+    .designers
+        &__request-btn
+            display: none
+        &__mob-request-btn
+            display: block
